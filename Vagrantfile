@@ -145,8 +145,8 @@ Vagrant.configure("2") do |config|
   #
   #   # Customize the amount of memory on the VM:
   config.vm.provider "virtualbox" do |v|
-    v.memory = 2048
-    v.cpus = 2
+    v.memory = 5000
+    v.cpus = 3
   end
   # end
   #
