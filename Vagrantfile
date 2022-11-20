@@ -90,7 +90,7 @@ sudo service docker enable
 # sudo service docker status
 # sudo usermod -a -G docker jenkins
 
-SCRIPT 
+SCRIPT
 
 Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: $script
