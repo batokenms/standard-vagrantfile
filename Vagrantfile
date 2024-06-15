@@ -5,7 +5,7 @@
 # configures the configuration version (we support older styles for
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
-
+# date today
 $script = <<-SCRIPT 
 
 sudo apt update -y
